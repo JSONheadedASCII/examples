@@ -1,0 +1,219 @@
+# [EnvRecord version 1.02]: 2520 records, 233 columns, Unclassified
+# Data from Los Alamos National Laboratory, CXDIIR Instrument on GPS SVN54. File created Mon Dec  7 11:55:37 2015
+#{
+#     "decimal_day": { "DESCRIPTION":"Decimal Day of year",
+#        "DIMENSION": [1],
+#        "UNITS": "days",
+#        "START_COLUMN": 0
+#     },
+#     "Geographic_Latitude": { "DESCRIPTION":"Geographic_Latitude",
+#        "DIMENSION": [1],
+#        "UNITS": "degrees",
+#        "START_COLUMN": 1
+#     },
+#     "Geographic_Longitude": { "DESCRIPTION":"Geographic_Longitude",
+#        "DIMENSION": [1],
+#        "UNITS": "degrees",
+#        "START_COLUMN": 2
+#     },
+#     "Rad_Re": { "DESCRIPTION":"Radius (earth radii)",
+#        "DIMENSION": [1],
+#        "UNITS": "R_E",
+#        "START_COLUMN": 3
+#     },
+#     "rate_electron_measured": { "DESCRIPTION":"rate_electron_measured",
+#        "DIMENSION": [11],
+#        "UNITS": "hertz",
+#        "START_COLUMN": 4
+#     },
+#     "rate_proton_measured": { "DESCRIPTION":"rate_proton_measured",
+#        "DIMENSION": [5],
+#        "UNITS": "hertz",
+#        "START_COLUMN": 15
+#     },
+#     "LEP_thresh": { "DESCRIPTION":"LEP_threshold: 0 means low, 1 means high",
+#        "DIMENSION": [1],
+#        "UNITS": "none",
+#        "START_COLUMN": 20
+#     },
+#     "collection_interval": { "DESCRIPTION":"collection_interval",
+#        "DIMENSION": [1],
+#        "UNITS": "seconds",
+#        "START_COLUMN": 21
+#     },
+#     "year": { "DESCRIPTION":"year eg 2015",
+#        "DIMENSION": [1],
+#        "UNITS": "years",
+#        "START_COLUMN": 22
+#     },
+#     "decimal_year": { "DESCRIPTION":"decimal_year contains fractional part of year",
+#        "DIMENSION": [1],
+#        "UNITS": "years",
+#        "START_COLUMN": 23
+#     },
+#     "svn_number": { "DESCRIPTION":"SVN number",
+#        "DIMENSION": [1],
+#        "UNITS": "none",
+#        "START_COLUMN": 24
+#     },
+#     "dropped_data": { "DESCRIPTION":"dropped_data=1 means ignore data",
+#        "DIMENSION": [1],
+#        "UNITS": "none",
+#        "START_COLUMN": 25
+#     },
+#     "b_coord_radius": { "DESCRIPTION":"radius from earths dipole axis",
+#        "DIMENSION": [1],
+#        "UNITS": "R_E",
+#        "START_COLUMN": 26
+#     },
+#     "b_coord_height": { "DESCRIPTION":"height above earth's equatorial plane",
+#        "DIMENSION": [1],
+#        "UNITS": "R_E",
+#        "START_COLUMN": 27
+#     },
+#     "magnetic_longitude": { "DESCRIPTION":"magnetic longitude",
+#        "DIMENSION": [1],
+#        "UNITS": "degrees",
+#        "START_COLUMN": 28
+#     },
+#     "L_shell": { "DESCRIPTION":"L shell, dipole file, T89",
+#        "DIMENSION": [1],
+#        "UNITS": "R_E",
+#        "START_COLUMN": 29
+#     },
+#     "L_LGM_TS04IGRF": { "DESCRIPTION":"L_LGM_TS04IGRF, not used now",
+#        "DIMENSION": [1],
+#        "UNITS": "R_E",
+#        "START_COLUMN": 30
+#     },
+#     "L_LGM_OP77IGRF": { "DESCRIPTION":"L_LGM_OP77IGRF, not used now",
+#        "DIMENSION": [1],
+#        "UNITS": "R_E",
+#        "START_COLUMN": 31
+#     },
+#     "L_LGM_T89CDIP": { "DESCRIPTION":"L_LGM_T89CDIP T89 External Field, Centered Dipole Internal Field",
+#        "DIMENSION": [1],
+#        "UNITS": "R_E",
+#        "START_COLUMN": 32
+#     },
+#     "bfield_ratio": { "DESCRIPTION":"Bsatellite/Bequator",
+#        "DIMENSION": [1],
+#        "UNITS": "none",
+#        "START_COLUMN": 33
+#     },
+#     "local_time": { "DESCRIPTION":"Magnetic local time",
+#        "DIMENSION": [1],
+#        "UNITS": "h",
+#        "START_COLUMN": 34
+#     },
+#     "utc_lgm": { "DESCRIPTION":"LGM UTC",
+#        "DIMENSION": [1],
+#        "UNITS": "h",
+#        "START_COLUMN": 35
+#     },
+#     "b_sattelite": { "DESCRIPTION":" field at satellite",
+#        "DIMENSION": [1],
+#        "UNITS": "gauss",
+#        "START_COLUMN": 36
+#     },
+#     "b_equator": { "DESCRIPTION":"B field at equator",
+#        "DIMENSION": [1],
+#        "UNITS": "gauss",
+#        "START_COLUMN": 37
+#     },
+#     "electron_background": { "DESCRIPTION":"electron_background estimated",
+#        "DIMENSION": [11],
+#        "UNITS": "hertz",
+#        "START_COLUMN": 38
+#     },
+#     "proton_background": { "DESCRIPTION":"proton_background estimated",
+#        "DIMENSION": [5],
+#        "UNITS": "hertz",
+#        "START_COLUMN": 49
+#     },
+#     "proton_activity": { "DESCRIPTION":"proton_activity=1 if proton activity is occurring",
+#        "DIMENSION": [1],
+#        "UNITS": "none",
+#        "START_COLUMN": 54
+#     },
+#     "proton_temperature_fit": { "DESCRIPTION":"proton characteristic momentum",
+#        "DIMENSION": [1],
+#        "UNITS": "MeV/c",
+#        "START_COLUMN": 55
+#     },
+#     "proton_density_fit": { "DESCRIPTION":"proton number density fit",
+#        "DIMENSION": [1],
+#        "UNITS": "cm^-3",
+#        "START_COLUMN": 56
+#     },
+#     "electron_temperature_fit": { "DESCRIPTION":"electron temperature from Maxwellian fit",
+#        "DIMENSION": [1],
+#        "UNITS": "MeV",
+#        "START_COLUMN": 57
+#     },
+#     "electron_density_fit": { "DESCRIPTION":"electron number density fit",
+#        "DIMENSION": [1],
+#        "UNITS": "cm^-3",
+#        "START_COLUMN": 58
+#     },
+#     "model_counts_electron_fit_pf": { "DESCRIPTION":"E1-E11 rates due to proton background based on proton flux fit -- not filled",
+#        "DIMENSION": [11],
+#        "UNITS": "hertz",
+#        "START_COLUMN": 59
+#     },
+#     "model_counts_proton_fit_pf": { "DESCRIPTION":"proton rate due from proton flux fit",
+#        "DIMENSION": [5],
+#        "UNITS": "hertz",
+#        "START_COLUMN": 70
+#     },
+#     "model_counts_electron_fit": { "DESCRIPTION":"electron rates from 9-parameter electron flux model",
+#        "DIMENSION": [11],
+#        "UNITS": "hertz",
+#        "START_COLUMN": 75
+#     },
+#     "model_counts_proton_fit": { "DESCRIPTION":"proton rates due from electron background -- not filled",
+#        "DIMENSION": [5],
+#        "UNITS": "hertz",
+#        "START_COLUMN": 86
+#     },
+#     "proton_integrated_flux_fit": { "DESCRIPTION":"proton rates above 10,15.85,25.11,30,40,79.43 MeV",
+#        "DIMENSION": [6],
+#        "UNITS": "cm^-2sec^-1sr^-1",
+#        "START_COLUMN": 91
+#     },
+#     "proton_flux_fit": { "DESCRIPTION":"proton fluxes at 31 energies -- not filled",
+#        "DIMENSION": [31],
+#        "UNITS": "cm^-2sec^-1sr^-1MeV^-1",
+#        "START_COLUMN": 97
+#     },
+#     "proton_fluence_fit": { "DESCRIPTION":"proton fluences above 6 energies -- not filled",
+#        "DIMENSION": [6],
+#        "UNITS": "cm^-2sec^-1",
+#        "START_COLUMN": 128
+#     },
+#     "integral_flux_instrument": { "DESCRIPTION":"integral of electron flux fit above integral_flux_energy[i]",
+#        "DIMENSION": [30],
+#        "UNITS": "cm^-2sec^-1sr^-1",
+#        "START_COLUMN": 134
+#     },
+#     "integral_flux_energy": { "DESCRIPTION":"energies for integral_flux_instrument",
+#        "DIMENSION": [30],
+#        "UNITS": "MeV",
+#        "START_COLUMN": 164
+#     },
+#     "electron_diff_flux_energy": { "DESCRIPTION":"energies for the fluxes in electron_diff_flux_energy",
+#        "DIMENSION": [15],
+#        "UNITS": "MeV",
+#        "START_COLUMN": 194
+#     },
+#     "electron_diff_flux": { "DESCRIPTION":"electron flux at energies electron_diff_flux[i]",
+#        "DIMENSION": [15],
+#        "UNITS": "cm^-2sec^-1sr^-1MeV^-1",
+#        "START_COLUMN": 209
+#     },
+#     "efitpars": { "DESCRIPTION":"fit parameters for 9 parameter electron fit",
+#        "DIMENSION": [9],
+#        "UNITS": "various",
+#        "START_COLUMN": 224
+#     }
+#}
