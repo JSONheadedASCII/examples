@@ -31,7 +31,7 @@
 #                      "ELEMENT_NAMES":["30.0-45.0keV","45.0-65.0keV","65.0-95.0keV","95.0-140.0keV","140.0-200.0keV","200.0-300.0keV","300.0-400.0keV","400.0-600.0keV","600.0-900.0keV","0.90-1.40MeV","1.40-2.0MeV"],
 #                              "UNITS":"[cm!e-2!ns!e-1!nsr!e-1!nkeV!e-1!n]",
 #                         "SCALE_TYPE":"log",
-#                        "RENDER_TYPE":"time_series",
+#                        "RENDER_TYPE":"time_series", 
 #                          "VALID_MIN":0.100000,
 #                          "VALID_MAX":1.00000e+07,
 #                         "FILL_VALUE":-1.00000e+38},
