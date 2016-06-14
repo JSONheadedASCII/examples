@@ -3,24 +3,24 @@
 #    "Lat": {
 #        "DIMENSION": [1], 
 #        "START_COLUMN": 1, 
-#        "Units": "deg"
+#        "UNITS": "deg"
 #    }, 
 #    "Lon": {
 #        "DIMENSION": [1], 
 #        "START_COLUMN": 2, 
-#        "Units": "deg"
+#        "UNITS": "deg"
 #    }, 
 #    "Notes": "Ephemeris for LANL-01A for 2015-03-31 00:00:00 converted from unheaded Ephem files by S. Morley", 
 #    "Rad": {
 #        "DIMENSION": [1], 
 #        "START_COLUMN": 3, 
-#        "Units": "R_E"
+#        "UNITS": "R_E"
 #    }, 
 #    "Satellite": "LANL-01A", 
 #    "Time": {
 #        "DIMENSION": [1], 
 #        "START_COLUMN": 0, 
-#        "dtype": "UTC"
+#        "UNITS": "UTC"
 #    }
 #}
 2015-03-31T00:07:07.991000 -3.01222 -165.524 6.61835
