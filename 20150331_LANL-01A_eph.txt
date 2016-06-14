@@ -21,7 +21,7 @@
 #        "DIMENSION": [1], 
 #        "START_COLUMN": 0, 
 #        "UNITS": "UTC",
-#        "d_type": "UTC"
+#        "dtype": "UTC"
 #    }
 #}
 2015-03-31T00:07:07.991000 -3.01222 -165.524 6.61835
